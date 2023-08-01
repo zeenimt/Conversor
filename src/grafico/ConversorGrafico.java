@@ -1,4 +1,4 @@
-package testando;
+package grafico;
 
 import java.text.DecimalFormat;
 

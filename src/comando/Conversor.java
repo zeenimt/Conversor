@@ -1,4 +1,4 @@
-package conversor;
+package comando;
 
 import java.text.DecimalFormat;
 import java.util.Scanner;
