@@ -7,7 +7,7 @@ import javax.swing.JOptionPane;
 public class ConversorGrafico {
 
 	private static double usd = 0.21;
-	private static double brl = 4.72;
+	private static double usdToBrl = 4.72;
 	private static double kz = 174.55;
 	private static double kzToBrl = 0.0057;
 	private static double ars = 57.60;
@@ -43,7 +43,7 @@ public class ConversorGrafico {
 				String resultFormatted = df.format(result);
 				JOptionPane.showConfirmDialog(null, "O valor convertido foi de $" + resultFormatted);
 			} else if (converter == selectConverter[1]) {
-				result = value * brl;
+				result = value * usdToBrl;
 				String resultFormatted = df.format(result);
 				JOptionPane.showConfirmDialog(null, "O valor convertido foi de R$" + resultFormatted);
 			} else if (converter == selectConverter[2]) {
